@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SSO Demo</title>
+  <link rel="stylesheet" href="/style.css" />
 </head>
 <body>
-  
+  <main class="wrap">
+    <h1>Welcome to the SSO Demo Project</h1>
+
+    <p id="status">Checking authentication...</p>
+
+    <div class="actions">
+      <a class="btn" href="/login">Log In</a>
+      <a class="btn outline" href="/logout">Log Out</a>
+      <button id="profileBtn" class="btn">View Profile (JSON)</button>
+    </div>
+
+    <pre id="out" hidden></pre>
+
+    <script src="/script.js"></script>
+  </main>
 </body>
 </html>
